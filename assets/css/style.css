@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+img {
+    width: 500px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.border {
+    border: 2px solid red;
+}

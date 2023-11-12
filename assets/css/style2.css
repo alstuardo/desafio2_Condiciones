@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-family: cursive;
+    font-weight:bolder;
+    color: chocolate;
+    text-shadow: 1px 0.5px black;
+}
+
+.stickers{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 10px;
+    gap: 30px;
+}
+
+.stickers img{
+    max-width: 400px;
+}
+
+input{
+    border: 2px solid black;
+    margin: 0 5px 0 5px;
+    text-align: center;
+    font-weight: bold;
+    background-color: aliceblue;
+}
+
+.message{
+    margin-top: 20px;
+}
+
+#btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    background-color:orangered;
+    color: aliceblue;
+    font-weight: bold;
+    padding: 10px;
+}
